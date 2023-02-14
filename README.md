@@ -1,6 +1,4 @@
 # questionable
-repository with questions and answers
-
 
 <h5>Can you explain the differences between a monolithic architecture and a microservices architecture? When would you choose one over the other for a data-intensive application?
 
@@ -42,4 +40,63 @@ repository with questions and answers
 <h5>How do you handle versioning and backward compatibility in a microservices architecture, especially when dealing with data schemas and APIs?
 
 >Versioning and backward compatibility in a microservices architecture require careful design and implementation of API management and versioning. In a data-intensive application, services should be able to evolve and change without breaking the clients that consume them. Technologies such as API Gateway, API Manager, and Swagger can be used to manage and version APIs. For example, let's consider a travel application that handles flight and hotel bookings. The application can use an API Gateway to manage and route requests to different versions of the services. The API Manager can be used to version and publish APIs and monitor their usage and performance. Swagger can be used to document APIs and generate client code and server stubs. Additionally, techniques such as semantic versioning, breaking changes, and deprecation can be used to manage API changes and ensure backward compatibility.
+</h5>
+
+
+<h5>
+
+>Object-oriented design and software engineering:
+
+- What are the SOLID principles, and how do they help in designing maintainable and extensible software?
+- What is the difference between composition and inheritance, and when should you use each?
+- What is the factory pattern, and how does it help in creating objects with complex initialization logic?
+- What is the observer pattern, and how does it help in implementing event-driven architectures?
+
+>Database design and management:
+
+- What is the difference between a relational and a NoSQL database, and when should you use each?
+- What is the ACID principle, and how does it ensure data consistency and integrity?
+- What is the CAP theorem, and how does it help in understanding the trade-offs between consistency, availability, and partition tolerance in distributed systems?
+- What is sharding, and how does it help in scaling databases horizontally?
+
+>Distributed systems and microservices:
+
+- What is the difference between a monolithic and a microservices architecture, and when should you use each?
+- What is service discovery, and how does it help in locating and communicating with services in a distributed system?
+- What is circuit breaking, and how does it help in handling failures and preventing cascading failures in a distributed system?
+- What is eventual consistency, and how does it help in handling conflicts and inconsistencies in a distributed system?
+
+>Performance optimization and scalability:
+
+- What is the difference between horizontal and vertical scaling, and when should you use each?
+- What is caching, and how does it help in reducing latency and improving throughput?
+- What is load balancing, and how does it help in distributing traffic across multiple instances of a service?
+- What is profiling, and how does it help in identifying performance bottlenecks and optimizing code?
+
+>Testing:
+
+- What is the difference between unit testing and integration testing, and when should you use each?
+- What is mocking, and how does it help in isolating the system under test from its dependencies?
+- What is contract testing, and how does it help in ensuring compatibility between services?
+- What is chaos engineering, and how does it help in testing the resilience and fault tolerance of a system?
+
+>Streaming and real-time data processing:
+- What is the difference between batch processing and stream processing, and when should you use each?
+- What is event time and processing time, and how do they affect the results of a stream processing job?
+- What is windowing, and how does it help in aggregating and analyzing data in real-time?
+- What is watermarking, and how does it help in handling late and out-of-order data in a streaming system?
+
+>Security and access control:
+
+- What is the difference between authentication and authorization, and how do they work together to ensure secure access to a system?
+- What is the OAuth 2.0 framework, and how does it help in delegating authentication and authorization to a trusted third-party provider?
+- What is JSON Web Token (JWT), and how does it help in securely transmitting authentication and authorization information between services and clients?
+- What is the difference between symmetric and asymmetric encryption, and when should you use each?
+
+> Versioning and backward compatibility:
+
+- What is the difference between forward compatibility and backward compatibility, and how do they affect the evolution of a system?
+- What is the semantic versioning scheme, and how does it help in communicating the impact of changes to clients?
+- What is the difference between a major, minor, and patch release, and when should you use each?
+- What is the deprecation process, and how does it help in phasing out old and outdated features and APIs?
 </h5>
